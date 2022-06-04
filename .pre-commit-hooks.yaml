@@ -1,0 +1,6 @@
+-   id: commit-message 
+    name: check commit message
+    description: This hook checks commit message.
+    entry: ./message-hook.sh
+    language: script
+    types: [file]
